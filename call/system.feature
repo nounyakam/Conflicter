@@ -9,3 +9,8 @@ Feature: Video call system
         Given User is on contact apps screen
         When User scroll in contact apps
         Then Start scrolling event and display all contact
+
+    Scenario: When user select one contact on list
+        Given User is on contact apps screen
+        When User select single contact
+        Then Display single contact page
