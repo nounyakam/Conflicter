@@ -12,5 +12,5 @@ Feature: Video call system
 
     Scenario: When user select one contact on list
         Given User is on contact apps screen
-        When User select single contact
+        When User've select single contact
         Then Display single contact page
